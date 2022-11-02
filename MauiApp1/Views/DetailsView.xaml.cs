@@ -2,9 +2,9 @@ using MauiApp1.ViewModels;
 
 namespace MauiApp1.Views;
 
-public partial class ToDoItemsView : ContentPage
+public partial class DetailsView : ContentPage
 {
-	public ToDoItemsView(ToDoItemsViewModel viewModel)
+	public DetailsView(DetailsViewModel viewModel)
 	{
 		InitializeComponent();
         BindingContext = viewModel;

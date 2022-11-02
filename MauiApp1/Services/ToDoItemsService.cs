@@ -3,10 +3,10 @@ using System.Net.Http.Json;
 
 namespace MauiApp1.Services;
 
-public class ToDoItemsServicecs
+public class ToDoItemsService
 {
     HttpClient httpClient;
-    public ToDoItemsServicecs()
+    public ToDoItemsService()
     {
         this.httpClient = new HttpClient();
     }
