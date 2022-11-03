@@ -35,6 +35,7 @@ public static class MauiProgram
         mauiAppBuilder.Services.AddSingleton<MainPageViewModel>();
         mauiAppBuilder.Services.AddSingleton<ToDoItemsViewModel>();
         mauiAppBuilder.Services.AddTransient<DetailsViewModel>();
+        mauiAppBuilder.Services.AddTransient<AboutViewModel>();
 
         return mauiAppBuilder;
     }
@@ -44,6 +45,10 @@ public static class MauiProgram
         mauiAppBuilder.Services.AddSingleton<MainPage>();
         mauiAppBuilder.Services.AddSingleton<ToDoItemsView>();
         mauiAppBuilder.Services.AddTransient<DetailsView>();
+
+        mauiAppBuilder.Services.AddTransient<AboutView>();
+        mauiAppBuilder.Services.AddTransient<AuthorView>();
+        mauiAppBuilder.Services.AddTransient<TelephoneView>();
 
         return mauiAppBuilder;
     }

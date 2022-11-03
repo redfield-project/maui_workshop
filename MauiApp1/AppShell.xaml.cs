@@ -14,5 +14,7 @@ public partial class AppShell : Shell
 	void InitializeRouting()
 	{
 		Routing.RegisterRoute(nameof(DetailsView), typeof(DetailsView));
-	}
+        Routing.RegisterRoute("Author", typeof(AuthorView));
+        Routing.RegisterRoute("Telephone", typeof(TelephoneView));
+    }
 }
