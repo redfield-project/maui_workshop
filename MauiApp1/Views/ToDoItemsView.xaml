@@ -41,7 +41,7 @@
             </CollectionView.ItemTemplate>
         </CollectionView>
 
-        <Button Text="Get Monkeys" 
+        <Button Text="Get Items" 
                 Command="{Binding GetItemsCommand}"
                 Grid.Row="1"
                 Grid.ColumnSpan="2"
